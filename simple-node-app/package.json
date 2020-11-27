@@ -1,0 +1,21 @@
+{
+  "name": "guia-express",
+  "version": "1.0.0",
+  "description": "Instalar nvm - nvm es el manejador de versiones de node. puedes tener mas de una version de node en\r la maquina instado. SI YA TIENES NODE NECESITAS DESINSTALARLO PARA MANEJAR DIFERENTES VERSIONES.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "nodemon --watch src src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
